@@ -4,5 +4,6 @@ node_modules
 *.o
 *.hi
 
-# the Haskell output file
+# various output files for things that generate such
 10
+11
