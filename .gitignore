@@ -1,3 +1,8 @@
 a.out
 *.class
 node_modules
+*.o
+*.hi
+
+# the Haskell output file
+10
