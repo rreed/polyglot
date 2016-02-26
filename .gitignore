@@ -3,6 +3,7 @@ a.out
 node_modules
 *.o
 *.hi
+*.beam
 
 # various output files for things that generate such
 10
