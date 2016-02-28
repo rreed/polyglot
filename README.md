@@ -21,4 +21,4 @@ Languages used so far, in order:
 * Rust
 * Erlang
 * Clojure
-
+* JavaScript
