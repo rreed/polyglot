@@ -22,3 +22,4 @@ Languages used so far, in order:
 * Erlang
 * Clojure
 * JavaScript
+* Scala
