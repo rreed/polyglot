@@ -23,3 +23,4 @@ Languages used so far, in order:
 * Clojure
 * JavaScript
 * Scala
+* Swift
