@@ -4,6 +4,7 @@ node_modules
 *.o
 *.hi
 *.beam
+*.exe
 
 # various output files for things that generate such
 10/10
