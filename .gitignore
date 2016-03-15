@@ -6,6 +6,11 @@ node_modules
 *.beam
 *.exe
 
+# Elm things
+elm-package.json
+elm-stuff
+elm.js
+
 # various output files for things that generate such
 10/10
 11/11
