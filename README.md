@@ -25,3 +25,5 @@ Languages used so far, in order:
 * Scala
 * Swift
 * C#
+* Elm
+* Elixir
