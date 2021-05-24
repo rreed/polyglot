@@ -10,7 +10,7 @@ Problems solved so far, and which language was used to solve them, in order:
 1. Find the sum of all the multiples of 3 or 5 below 1000. (Python)
 2. By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms. (Ruby)
 3. What is the largest prime factor of the number 600851475143 ? (C)
-4. Java (Find the largest palindrome made from the product of two 3-digit numbers.)
+4. Find the largest palindrome made from the product of two 3-digit numbers. (Java)
 5. Coffeescript (What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?)
 6. Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum. (Lolcode)
 7. What is the 10 001st prime number? (Lua)
@@ -28,3 +28,4 @@ Problems solved so far, and which language was used to solve them, in order:
 19. How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)? (Elm)
 20. Find the sum of the digits in the number 100! (Elixir)
 21. Find the sum of all amicable numbers less than 10000. (R)
+22. Find the sum of all "name scores" in a provided file. (Bash)
