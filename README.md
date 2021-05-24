@@ -1,12 +1,12 @@
-# Polyglot
+## Polyglot
 
 As a way of keeping things fresh and exploring new languages, I started doing one [Project Euler](https://projecteuler.net/) problem a day without repeating a programming language.
 
-(It very quickly turned into "one whenever I feel like it", sometimes more than one a day, sometimes none.)
+(It very quickly turned into "one whenever I feel like it", sometimes more than one a day, sometimes none. It should also be noted that the point of this exercise is quick exposure to a wide variety of languages, and not any sort of mastery; a lot of the code here likely is not "idiomatic", and will sometimes be the only code I've written in that language in ten years or ever.)
 
 Idea shamelessly stolen from [eevee](https://github.com/eevee).
 
-Languages used so far, in order:
+Problems solved so far, and which language was used to solve them, in order:
 1. Find the sum of all the multiples of 3 or 5 below 1000. (Python)
 2. By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms. (Ruby)
 3. What is the largest prime factor of the number 600851475143 ? (C)
@@ -27,3 +27,4 @@ Languages used so far, in order:
 18. Find the maximum total from top to bottom of the triangle below. (C#)
 19. How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)? (Elm)
 20. Find the sum of the digits in the number 100! (Elixir)
+21. Find the sum of all amicable numbers less than 10000. (R)
