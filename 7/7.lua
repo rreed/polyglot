@@ -16,7 +16,7 @@ function nthPrime(n)
 				isPrime = r % j ~= 0
 				if not isPrime then break end
 			end
-                        if isPrime then break end
+			if isPrime then break end
 		end
 	end
 	return r

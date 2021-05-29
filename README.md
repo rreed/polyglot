@@ -29,3 +29,4 @@ Problems solved so far, and which language was used to solve them, in order:
 20. Find the sum of the digits in the number 100! (Elixir)
 21. Find the sum of all amicable numbers less than 10000. (R)
 22. Find the sum of all "name scores" in a provided file. (Bash)
+23. Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers. (Kotlin)
