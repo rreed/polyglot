@@ -30,3 +30,5 @@ Problems solved so far, and which language was used to solve them, in order:
 21. Find the sum of all amicable numbers less than 10000. (R)
 22. Find the sum of all "name scores" in a provided file. (Bash)
 23. Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers. (Kotlin)
+24. Skipped for now because the next one interested me more. :)
+25. Find the index of the first Fibonacci number with 1000 digits. (Dart)
