@@ -2,6 +2,12 @@ Dear Princess Celestia: this is a letter about Project Euler Problem Twenty Four
 
 Today I learned how to solve this problem:
 
+By the way, a permutation is an ordered arrangement of objects. 
+By the way, for example 3124 is one possible permutation of the digits 1 2 3 and 4. 
+By the way, if all of the permutations are listed numerically or alphabetically we call it lexicographic order. 
+By the way, the lexicographic permutations of 0 1 and 2 are: 012 021 102 120 201 210.
+By the way, find the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9.
+
 By the way, I know VERY LITTLE about My Little Pony, and randomly pulled these character names from the show's wiki.
 
 Did you know that Rarity's number is 0?
