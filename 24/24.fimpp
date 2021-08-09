@@ -1,0 +1,93 @@
+Dear Princess Celestia: this is a letter about Project Euler Problem Twenty Four.
+
+Today I learned how to solve this problem:
+
+By the way, I know VERY LITTLE about My Little Pony, and randomly pulled these character names from the show's wiki.
+
+Did you know that Rarity's number is 0?
+Today I found a book titled Permutations.
+I did this while Rarity's number had less than 10:
+    By the way, this language is one-indexed, so you'll see a lot of this type of thing.
+    Rarity's index made the sum of Rarity's number and one.
+    On the page numbered by Rarity's index of the book Permutations I scribbled Rarity's number.
+    Rarity's number got one more.
+That's what I did.
+
+Did you know that Rainbow Dash's number is 1, because it is our starting point?
+Did you know that Applejack's number is 1000000, because it is our upper bound?
+Did you know that Flim's number is 10, because it is the number of digits we're permuting?
+
+I did this while Rainbow Dash's number had less than Applejack's number:
+    Flam's bigger number made the difference of Flim's number and 1.
+    Flam's smaller number made the difference of Flam's bigger number and 1.
+    Flam's bigger index made the sum of Flam's bigger number and 1.
+    Flam's smaller index made the sum of Flam's smaller number and 1.
+    On the page numbered by Flam's bigger index of Permutations I read about Spike's first number.
+    On the page numbered by Flam's smaller index of Permutations I read about Spike's second number.   
+    Spike's first number got one less.
+    
+    I did this while Spike's second number had more than Spike's first number:
+        Flam's bigger number got one less.
+        Flam's smaller number made the difference of Flam's bigger number and 1.
+        Flam's bigger index made the sum of Flam's bigger number and 1.
+        Flam's smaller index made the sum of Flam's smaller number and 1.
+        On the page numbered by Flam's bigger index of Permutations I read about Spike's first number.
+        On the page numbered by Flam's smaller index of Permutations I read about Spike's second number.
+    That's what I did.
+    
+    Did you know that Braeburn's bigger number is Flim's number?
+    Braeburn's smaller number made the difference of Braeburn's bigger number and one.
+    Braeburn's smaller index made the sum of Braeburn's smaller number and one.
+    On the page numbered by Braeburn's smaller index of Permutations I read about Trixie's first number.
+
+    Flam's smaller number made the difference of Flam's bigger number and 1.
+    Flam's smaller index made the sum of Flam's smaller number and 1.
+    On the page numbered by Flam's smaller index of Permutations I read about Trixie's second number.
+    Trixie's second number got one more.
+    I did this while Trixie's first number had less than Trixie's second number:
+        Braeburn's bigger number got one less.
+        Braeburn's smaller number made the difference of Braeburn's bigger number and one.
+        Braeburn's smaller index made the sum of Braeburn's smaller number and one.
+        On the page numbered by Braeburn's smaller index of Permutations I read about Trixie's first number.
+    That's what I did.
+    
+    Chrysalis's first number made the difference of Braeburn's bigger number and one.
+    Chrysalis's first index made the sum of Chrysalis's first number and one.
+    Chrysalis's second number made the difference of Flam's bigger number and one.
+    Chrysalis's second index made the sum of Chrysalis's second number and one.
+    On the page numbered by Chrysalis's first index of Permutations I read about Blaze's first temporary value.
+    On the page numbered by Chrysalis's second index of Permutations I read about Blaze's second temporary value.
+    On the page numbered by Chrysalis's second index of the book Permutations I scribbled Blaze's first temporary value.
+    On the page numbered by Chrysalis's first index of the book Permutations I scribbled Blaze's second temporary value.
+    
+    Flam's bigger number got one more.
+    Did you know that Braeburn's bigger number is Flim's number?
+    I did this while Flam's bigger number had less than Braeburn's bigger number:
+        Chrysalis's first number made the difference of Braeburn's bigger number and one.
+        Chrysalis's first index made the sum of Chrysalis's first number and one.
+        Chrysalis's second number made the difference of Flam's bigger number and one.
+        Chrysalis's second index made the sum of Chrysalis's second number and one.
+        On the page numbered by Chrysalis's first index of Permutations I read about Blaze's first temporary value.
+        On the page numbered by Chrysalis's second index of Permutations I read about Blaze's second temporary value.
+        On the page numbered by Chrysalis's second index of the book Permutations I scribbled Blaze's first temporary value.
+        On the page numbered by Chrysalis's first index of the book Permutations I scribbled Blaze's second temporary value.
+        Braeburn's bigger number got one less.
+        Flam's bigger number got one more.
+    That's what I did.
+    
+    Rainbow Dash's number got one more.
+That's what I did.
+
+By the way, apparently there's a MLP character just named Doctor Horse, and this amuses me far more than it should.
+Did you know that Doctor Horse is ""?
+Did you know that Gizmo's number is 1?
+
+I did this while Gizmo's number had less than eleven:
+    On the page numbered by Gizmo's number of the book Permutations I read about Blossomforth.
+    Did you know that Doctor Horse is "'Doctor Horse''Blossomforth'"?
+    Gizmo's number got one more.
+That's what I did.
+
+I said: Doctor Horse!
+
+Your faithful student, Twilight Sparkle.
