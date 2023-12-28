@@ -32,3 +32,4 @@ Problems solved so far, and which language was used to solve them, in order:
 23. Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers. (Kotlin)
 24. Find the millionth permutation of the digits zero through nine. (FiM++)
 25. Find the index of the first Fibonacci number with 1000 digits. (Dart)
+40. Find the product of the 1st, 10th, 100th, 1000th, 10000th, 100000th, and 1000000th digits of Champernowne's constant. (F#)
