@@ -32,5 +32,7 @@ Problems solved so far, and which language was used to solve them, in order:
 23. Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers. (Kotlin)
 24. Find the millionth permutation of the digits zero through nine. (FiM++)
 25. Find the index of the first Fibonacci number with 1000 digits. (Dart)
+26. Find the value of d < 1000 for which 1/d contains the longest recurring cycle in its decimal fraction part.
+27. Find the product of the coefficients a and b for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n = 0. (Ballerina)
 40. Find the product of the 1st, 10th, 100th, 1000th, 10000th, 100000th, and 1000000th digits of Champernowne's constant. (F#)
 48. Find the last ten digits of the series 1^1 + 2^2 + 3^3 ... + 1000^1000. (Julia)
