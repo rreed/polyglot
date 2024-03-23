@@ -1,11 +1,14 @@
-(define target 200)
-(define coins '(1 2 5 10 20 50 100 200))
-(define ways (cons 1 (make-list target 0))) ; a 1 and 200 zeroes
+(define (ways coins n)
+  (cond
+    ((null? coins) (if (= n 0) 1 0))
+    (else
+     (let ((coin (car coins))
+           (otherCoins (cdr coins)))
+       (let loop ((i 0)      
+                  (sum 0))
+         (if (> (* i coin) n)
+             sum
+             (loop (+ i 1)                        
+                   (+ sum (ways otherCoins (- n (* i coin)))))))))))
 
-(do ((coin coins (cdr coin)))
-    ((null? coin))
-  (do ((i (car coin) (+ i 1)))
-      ((>= i (+ target 1)))
-    (set! (list-ref ways i) (+ (list-ref ways i) (list-ref ways (- i (car coin)))))))
-
-(display (list-ref ways (- (length ways) 1)))
+(display (ways '(1 2 5 10 20 50 100 200) 200))
