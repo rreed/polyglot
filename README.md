@@ -39,6 +39,7 @@ Problems solved so far, and which language was used to solve them, in order:
 30. Find the sum of all the numbers that can be written as the sum of fifth powers of their digits. (Groovy)
 31. How many different ways can £2 be made using any number of coins? (Scheme)
 32. Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital. (PHP)
+33. Find the product of the denominators of all four two-digit curious fractions. (Common LISP)
 40. Find the product of the 1st, 10th, 100th, 1000th, 10000th, 100000th, and 1000000th digits of Champernowne's constant. (F#)
 48. Find the last ten digits of the series 1^1 + 2^2 + 3^3 ... + 1000^1000. (Julia)
 
