@@ -1,3 +1,7 @@
+% 145 is a curious number, as 1! + 4! + 5! == 145.
+% Find the sum of all numbers which are equal to the sum of the factorial of their digits.
+% Note: As 1! and 2! are not sums they are not included.
+
 factorial(0,Result) :-
     Result is 1.
 factorial(N,Result) :-
