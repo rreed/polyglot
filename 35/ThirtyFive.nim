@@ -1,3 +1,7 @@
+# The number 197 is called a circular prime because all rotations
+# of the digits (197, 971, and 791) are themselves prime.
+# How many circular primes are there below one million?
+
 # immediately yelled at for naming this file 35.nim instead of ThirtyFive.nim :)
 import std/algorithm
 import std/assertions
