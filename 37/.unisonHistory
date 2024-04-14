@@ -1,0 +1,61 @@
+exit
+git status
+docs Nat.mod
+docs mod
+docs range
+docs List.range
+docs range
+docs floor
+docs List.filter
+docs filter
+docs filteer
+docs sqrt
+docs Nat.range
+docs range
+docs both
+docs and
+docs Optional.getOrElse
+docs Optional.getOrElse
+docs getOrElse
+docs toNat
+docs toFloat
+docs fromFloat
+docs floor
+docs Optional
+docs toNat
+docs toFloat
+docs fromFloat
+docs Float.floor
+docs floor
+docs logBase
+docs Nat.pow
+docs pow
+docs Nat.mod
+docs toFloat
+docs logBase
+docs Nat.logBase
+docs floor
+python3
+docs List.filter
+docs List.filtr
+docs filter
+docs Stream.toList
+docs toList
+List.all Nat.isEven [2,3,4]
+docs List.none
+docs List.all
+docs all
+help
+api all
+api
+help
+? all
+clear
+?
+isPrime(7)
+add isPrime
+isPrime 7
+isPrime 7\
+add isPrime
+isPrime 7
+project.create 37

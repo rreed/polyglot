@@ -1,0 +1,40 @@
+-- The number 3797 has an interesting property. 
+-- Being prime itself, it is possible to continuously remove digits 
+-- from left to right, and remain prime at each stage: 3797, 797, 97, and 7. 
+-- Similarly we can work from right to left: 3797, 379, 37, and 3.
+-- Find the sum of the only eleven primes that are both truncatable from left to right and right to left.
+-- 2, 3, 5, and 7 are not considered to be truncatable primes.
+
+use nat
+use List all filter
+use Stream toList
+
+isPrime : Nat -> Boolean
+isPrime = cases
+  n
+    | n < 2 -> false
+    | n == 2 -> true
+    | n == 3 -> true
+    | n == 4 -> false
+    | n == 5 -> true
+    | n == 6 -> false
+    | ((Nat.mod n 6) - 1 != 0) && ((Nat.mod (n + 1) 6) != 0) -> false
+    | otherwise -> all ((i -> (Nat.mod n i) != 0)) (range 2 (Optional.getOrElse 0 (Float.toNat (sqrt (Float.fromNat n))) + 1))
+
+rtlTrunc : Nat -> {Stream Nat} ()
+rtlTrunc = cases
+  n 
+    | n == 0    -> ()
+    | otherwise ->
+      emit n
+      rtlTrunc (n / 10)
+
+ltrTrunc : Nat -> {Stream Nat} ()
+ltrTrunc = cases
+  n
+    | n == 0    -> ()
+    | otherwise ->
+      emit n
+      ltrTrunc (Nat.mod n (Nat.pow 10 (Optional.getOrElse 0 (Float.toNat (Float.floor (Float.logBase 10.0 (Float.fromNat n)))))))
+
+> sum (filter (n -> (all isPrime (toList '(rtlTrunc n)) && (all isPrime (toList '(ltrTrunc n))))) (range 10 999999))   
