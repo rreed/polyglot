@@ -44,6 +44,7 @@ Problems solved so far, and which language was used to solve them, in order:
 35. How many circular primes are there below one million? (Nim)
 36. Find the sum of all numbers <= 1000000 which are palindromes in both base 10 and base 2. (Gleam)
 37. Find the sum of all eleven integers for which all truncations in either direction are prime. (Unison)
+38. What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product of an integer with (1,2,...,n) where n>1? (Raku)
 40. Find the product of the 1st, 10th, 100th, 1000th, 10000th, 100000th, and 1000000th digits of Champernowne's constant. (F#)
 48. Find the last ten digits of the series 1^1 + 2^2 + 3^3 ... + 1000^1000. (Julia)
 
